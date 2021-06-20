@@ -1,0 +1,90 @@
+{
+	"0" : {
+		"text" : "Si vous utilisez une longueur d'onde de 520 nm pour vos mesures, comment triez-vous les solutions en fonction de l'absorbance mesurée (la plus élevée en haut, la plus faible en bas)?",
+		"imgs" : ["0.png"],
+		"ans" : "choices4",
+		"conf" : true,
+		"labels" : ["La plus forte", "", "", "La plus faible"],
+		"choices" : ["Becher A", "Becher B", "Becher C", "Becher D"]
+	},
+	"1" : {
+		"text" : "Quelle absorbance sera mesurée dans l'image de droite?",
+		"imgs" : ["1-1.png", "1-2.png"],
+		"ans" : "text",
+		"conf" : true
+	},
+	"2" : {
+		"text" : "Quelle absorbance sera mesurée dans l'image de droite?",
+		"imgs" : ["2-1.png", "2-2.png"],
+		"ans" : "text",
+		"conf" : true
+	},
+	"3" : {
+		"text" : "Quelle absorbance sera mesurée dans l'image de droite?",
+		"imgs" : ["3-1.png", "3-2.png"],
+		"ans" : "text",
+		"conf" : true
+	},
+	"4" : {
+		"text" : "Quelle absorbance sera mesurée dans l'image de droite?",
+		"imgs" : ["4-1.png", "4-2.png"],
+		"ans" : "text",
+		"conf" : true
+	},
+	"5" : {
+		"text" : "Quelle couleur de laser minimise l'absorbance mesurée? Vous pouvez sélectionner plusieurs réponses (avec des pondérations différentes en %), mais assurez-vous que toutes les valeurs totalisent 100 %.",
+		"imgs" : ["5.png"],
+		"ans" : "sliders",
+		"conf" : false,
+		"sliders" : ["Violet", "Bleu", "Jaune", "Rouge"]
+	},
+	"6" : {
+		"text" : "Quelle solution maximise l'absorbance mesurée à une longueur d'onde de 411 nm ? Vous pouvez sélectionner plusieurs réponses (avec des pondérations différentes en %), mais assurez-vous que toutes les valeurs totalisent 100 %.",
+		"imgs" : ["6.png"],
+		"ans" : "sliders",
+		"conf" : false,
+		"sliders" : ["Cobalt (II) nitrate", "Potassium chromate", "Copper sulfate", "Potassium permanganate"]
+	},
+	"7" : {
+		"text" : "Essayez d'expliquer avec des mots comment<br>- la concentration de la solution<br>- la largeur du bécher et<br>- la longueur d'onde du laser<br>affectent l'absorbance mesurée. Si possible, vous pouvez essayer de donner une formule mathématique.",
+		"imgs" : [],
+		"ans" : "text",
+		"conf" : true
+	},
+	"8" : {
+		"text" : "Avez-vous pris des notes sur la dernière activité? Si oui, sélectionnez le type de notes que vous avez prises et décrivez-les brièvement.",
+		"imgs" : [],
+		"ans" : "checkboxes",
+		"conf" : false,
+		"choices" : [
+			"Texte (seulement si c'est plus que quelques mots, sinon ça ne compte pas)",
+			"Calculs",
+			"Tableaux",
+			"Graphiques ou diagrammes"
+		]
+	},
+	"9" : {
+		"text" : "Avant cette activité, connaissiez-vous la loi de Beer-Lambert?",
+		"imgs" : [],
+		"ans" : "text",
+		"conf" : false
+	},
+	"10" : {
+		"text" : "Quelle substance se trouve dans chaque bécher?",
+		"imgs" : ["10.png"],
+		"ans" : "choices",
+		"conf" : true,
+		"labels" : ["Bécher A", "Bécher B", "Bécher C"],
+		"choices" : [
+			"Je ne sais pas",
+			"Drink mix",
+			"Co(No3)2: Cobalt (II) nitrate",
+			"CoCl2: Cobalt chloride",
+			"K2Cr2O7: Potassium dichromate",
+			"K2CrO4: Potassium chromate",
+			"NiCl2: Nickel (II) chromate",
+			"CuSO4: Copper sulfate",
+			"KMnO4: Potassium permanganate"
+		]
+	}
+}

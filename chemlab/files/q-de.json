@@ -1,0 +1,90 @@
+{
+	"0" : {
+		"text" : "Wenn Sie für Ihre Messungen eine Wellenlänge von 520 nm verwenden, wie würden Sie die Lösungen nach gemessener Extinktion (engl. absorbance) sortieren (höchste oben, niedrigste unten)?",
+		"imgs" : ["0.png"],
+		"ans" : "choices4",
+		"conf" : true,
+		"labels" : ["Höchste", "", "", "Niedrigste"],
+		"choices" : ["Becher A", "Becher B", "Becher C", "Becher D"]
+	},
+	"1" : {
+		"text" : "Welche Extinktion wird im Bild rechts gemessen?",
+		"imgs" : ["1-1.png", "1-2.png"],
+		"ans" : "text",
+		"conf" : true
+	},
+	"2" : {
+		"text" : "Welche Extinktion wird im Bild rechts gemessen?",
+		"imgs" : ["2-1.png", "2-2.png"],
+		"ans" : "text",
+		"conf" : true
+	},
+	"3" : {
+		"text" : "Welche Extinktion wird im Bild rechts gemessen?",
+		"imgs" : ["3-1.png", "3-2.png"],
+		"ans" : "text",
+		"conf" : true
+	},
+	"4" : {
+		"text" : "Welche Extinktion wird im Bild rechts gemessen?",
+		"imgs" : ["4-1.png", "4-2.png"],
+		"ans" : "text",
+		"conf" : true
+	},
+	"5" : {
+		"text" : "Welche Farbe des Lichtstrahls minimiert die gemessene Extinktion? Sie können mehrere Antworten auswählen (mit unterschiedlichen Gewichtungen in %), aber achten Sie darauf, dass alle Werte in der Summe 100% ergeben.",
+		"imgs" : ["5.png"],
+		"ans" : "sliders",
+		"conf" : false,
+		"sliders" : ["Violett", "Blau", "Gelb", "Rot"]
+	},
+	"6" : {
+		"text" : "Welche Lösung maximiert die gemessene Extinktion bei einer Wellenlänge von 411 nm? Sie können mehrere Antworten auswählen (mit unterschiedlichen Gewichtungen in %), aber achten Sie darauf, dass alle Werte in der Summe 100% ergeben.",
+		"imgs" : ["6.png"],
+		"ans" : "sliders",
+		"conf" : false,
+		"sliders" : ["Cobalt (II) nitrate", "Potassium chromate", "Copper sulfate", "Potassium permanganate"]
+	},
+	"7" : {
+		"text" : "Versuchen Sie in Worten zu erklären, wie<br>- die Konzentration der Lösung<br>- die Breite des Bechers und<br>- die Wellenlänge des Lichtstrahls<br>die gemessene Extinktion beeinflussen. Wenn möglich, können Sie versuchen eine mathematische Formel anzugeben.",
+		"imgs" : [],
+		"ans" : "text",
+		"conf" : true
+	},
+	"8" : {
+		"text" : "Haben Sie in der letzten Aufgabe Notizen gemacht? Falls ja, wählen Sie die Art von Notizen aus, die Sie gemacht haben und beschreiben Sie diese kurz.",
+		"imgs" : [],
+		"ans" : "checkboxes",
+		"conf" : false,
+		"choices" : [
+			"Textnotizen (umfangreich, einzelne Worte zählen nicht)",
+			"Berechnungen",
+			"Tabellen",
+			"Graphen oder Diagramme"
+		]
+	},
+	"9" : {
+		"text" : "Wie sehr waren Sie vor dieser Aktivität mit dem Lambert-Beer'schen Gesetz vertraut?",
+		"imgs" : [],
+		"ans" : "text",
+		"conf" : false
+	},
+	"10" : {
+		"text" : "Welche Substanz befindet sich in jedem Becher?",
+		"imgs" : ["10.png"],
+		"ans" : "choices",
+		"conf" : true,
+		"labels" : ["Becher A", "Becher B", "Becher C"],
+		"choices" : [
+			"Ich weiss nicht",
+			"Drink mix",
+			"Co(No3)2: Cobalt (II) nitrate",
+			"CoCl2: Cobalt chloride",
+			"K2Cr2O7: Potassium dichromate",
+			"K2CrO4: Potassium chromate",
+			"NiCl2: Nickel (II) chromate",
+			"CuSO4: Copper sulfate",
+			"KMnO4: Potassium permanganate"
+		]
+	}
+}

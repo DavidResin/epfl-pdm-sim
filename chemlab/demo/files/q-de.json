@@ -1,0 +1,15 @@
+{
+	"0" : {
+		"text" : "Wie lautet das Ergebnis für das Bild rechts?",
+		"imgs" : ["0-1.png", "0-2.png"],
+		"ans" : "text",
+		"conf" : true
+	},
+	"1" : {
+		"text" : "Welche Glacesorte haben Sie am liebsten? Es ist möglich mehrere Antworten auszuwählen (mit unterschiedlichen Gewichtungen in %), aber achten Sie darauf, dass alle Werte in der Summe 100% ergeben.",
+		"imgs" : ["1.png"],
+		"ans" : "sliders",
+		"conf" : false,
+		"sliders" : ["Schokolade", "Vanille", "Erdbeere", "Zitrone"]
+	}
+}
